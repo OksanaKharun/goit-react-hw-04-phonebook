@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Filter = ({ filter, onFilterChange }) => {
+const Filter = ({ filter, handleFilterChange }) => {
   return (
     <label className="filter">
       Filter contacts by name
-      <input type="text" value={filter} onChange={onFilterChange} />
+      <input type="text" value={filter} onChange={handleFilterChange} />
     </label>
   );
 };
